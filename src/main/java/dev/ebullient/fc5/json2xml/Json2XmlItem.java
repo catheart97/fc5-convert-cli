@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import jakarta.xml.bind.JAXBElement;
+
 import com.fasterxml.jackson.databind.JsonNode;
 
 import dev.ebullient.fc5.Log;
@@ -17,7 +19,6 @@ import dev.ebullient.fc5.json5e.JsonIndex.IndexType;
 import dev.ebullient.fc5.json5e.JsonItem;
 import dev.ebullient.fc5.pojo.ItemEnum;
 import dev.ebullient.fc5.pojo.PropertyEnum;
-import jakarta.xml.bind.JAXBElement;
 
 public class Json2XmlItem extends Json2XmlBase implements JsonItem {
     XmlItemType fc5Item;

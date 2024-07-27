@@ -8,8 +8,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import dev.ebullient.fc5.Templates;
 import jakarta.inject.Inject;
+
+import dev.ebullient.fc5.Templates;
 
 public class ParsingTestBase {
     static final Path output = Paths.get(System.getProperty("user.dir")).toAbsolutePath().resolve("target");

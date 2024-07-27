@@ -1,0 +1,250 @@
+{
+	"subclass": [
+		{
+			"name": "Jeweler",
+			"shortName": "Jeweler",
+			"source": "HOMEBREW",
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"charm person",
+							"color spray"
+						],
+						"5": [
+							"arcanist's magic aura",
+							"moonbeam"
+						],
+						"9": [
+							"beacon of hope",
+							"daylight"
+						],
+						"13": [
+							"compulsion",
+							"dominate beast"
+						],
+						"17": [
+							"animate objects",
+							"hallow"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Jeweler|Artificer|HOMEBREW|Jeweler|HOMEBREW|3",
+				"Improved Jewel Magic|Artificer|HOMEBREW|Jeweler|HOMEBREW|5",
+				"Potent Jewel Magic|Artificer|HOMEBREW|Jeweler|HOMEBREW|9",
+				"Soul Snatcher|Artificer|HOMEBREW|Jeweler|HOMEBREW|15"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Jeweler",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 3,
+			"entries": [
+				"An artificer who specializes as a Jeweler stores spells in jewels. Storing spells in jewels allows you to share or enhance their magic. Jewelers are valuable as both merchants and as adventurers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|HOMEBREW|Jeweler|HOMEBREW|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Jeweler Spells|Artificer|HOMEBREW|Jeweler|HOMEBREW|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bejewled Magic|Artificer|HOMEBREW|Jeweler|HOMEBREW|3"
+				}
+			]
+		},
+		{
+			"name": "Bejewled Magic",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You have learned how to bring the magical properties out of many jewels and gems. Whenever you finish a long rest, you can magically store a spell of your choice that you can cast and is of a spell level equal to or less than half your proficiency bonus rounded down in a mundane gem or jewel you touch. To store a spell you must provide the required components.",
+				"You can fill additional gems or jewels in the same way but you must expend the necessary spell slot, and they can be of any spell slot level that you can cast.",
+				"A creature can cast a stored spell using the required action of the spell, but doesn't need to provide the components. Using your DC and attack modifier Once a stored spell is cast the Jewel is no longer filled and can be filled as normal. Additionally if you cast a stored spell that requires a jewel or gem with as a material component, you may use the jewel that was used to store the spell for that component.",
+				"Storing a spell in a jewel requires you to have jeweler's tools on your person, and any spell you store with this feature lasts until it is cast or until the end of your next long rest."
+			]
+		},
+		{
+			"name": "Jeweler Spells",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Jeweler Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Jeweler Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}, {@spell color spray}"
+						],
+						[
+							"5th",
+							"{@spell arcanist's magic aura}, {@spell moonbeam}"
+						],
+						[
+							"9th",
+							"{@spell beacon of hope}, {@spell daylight}"
+						],
+						[
+							"13th",
+							"{@spell compulsion}, {@spell dominate beast}"
+						],
+						[
+							"17th",
+							"{@spell animate objects}, {@spell hallow}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain proficiency with Jeweler's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice. You may also use any gem or jewel as a spellcasting focus."
+			]
+		},
+		{
+			"name": "Improved Jewel Magic",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Spells you store that deal damage now deal an extra 1d6 damage."
+			]
+		},
+		{
+			"name": "Potent Jewel Magic",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"You found how to improve the quality of your stored spells. When a creature casts a spell from a jewel that you filled they get a bonus to your spellcasting DC and attack bonus based on the worth of the jewel it is stored in as shown on the jewel worth bonus table:",
+				{
+					"type": "list",
+					"items": [
+						"50gp-99gp +1",
+						"100gp-999gp +2",
+						"1000gp-9999gp +3",
+						"10000gp-99999gp +4",
+						"+100000gp +5"
+					]
+				}
+			]
+		},
+		{
+			"name": "Soul Snatcher",
+			"source": "HOMEBREW",
+			"page": 18,
+			"otherSources": [
+				{
+					"source": "ERLW",
+					"page": 60
+				}
+			],
+			"className": "Artificer",
+			"classSource": "HOMEBREW",
+			"subclassShortName": "Jeweler",
+			"subclassSource": "HOMEBREW",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You learn to trap a piece of a creature's soul when it dies. When a creature that can cast spells dies within 30ft of you, you can use a reaction to store a spell that they can cast in an empty gem or jewel. The spell's level cannot be higher than the creature's CR or your intelligence modifier (minimum of one), whichever is lower. Storing a spell in this way counts as a stored spell from your Bejeweled Magic ability. Once you have used this ability you cannot use it again until you take a long rest."
+			]
+		}
+	]
+}

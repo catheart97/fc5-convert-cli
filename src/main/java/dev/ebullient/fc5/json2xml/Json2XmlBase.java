@@ -4,6 +4,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import jakarta.xml.bind.JAXBElement;
+
 import com.fasterxml.jackson.databind.JsonNode;
 
 import dev.ebullient.fc5.json2xml.jaxb.XmlFeatureType;
@@ -17,7 +19,6 @@ import dev.ebullient.fc5.json5e.JsonIndex;
 import dev.ebullient.fc5.pojo.Modifier;
 import dev.ebullient.fc5.pojo.QuteClassFeature;
 import dev.ebullient.fc5.pojo.QuteTrait;
-import jakarta.xml.bind.JAXBElement;
 
 public abstract class Json2XmlBase implements JsonBase {
 

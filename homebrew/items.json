@@ -1,0 +1,46 @@
+{
+    "item": [
+        {
+            "name": "Eternal Diamond of Water",
+            "source": "HOMEBREW",
+            "page": 0,
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "The Eternal Diamond of Water is a flawless, glittering gem of deep azure, pulsating with an inner light that seems to ebb and flow like the tides. This legendary artifact was created by an ancient water elemental lord and is said to hold the very essence of the ocean within its crystalline depths.",
+                "While the user is attuned to it, the Eternal Diamond of Water grants the following (passive) benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "**Water Mastery**: While attuned to the Eternal Diamond of Water, you gain a swimming speed equal to your walking speed. You can breathe underwater and gain resistance to cold damage.",
+                        "**Aquatic Resilience**: You have advantage on saving throws against spells and effects that deal fire damage. Additionally, you gain temporary hit points equal to your proficiency bonus at the start of each of your turns while you are submerged in water.",
+                        "The user can cast the spell <i>water breathing</i> without expending a spell slot. Once used, this property can't be used again until the next dawn."
+                    ]
+                },
+                "In addition you can use one of the following features between long rests:",
+                {
+                    "type": "list",
+                    "items": [
+                        "**Tidal Wave**: You can cast the spell <i>tidal wave</i> without expending a spell slot.",
+                        "**Control Water**: You can use the diamond to cast the <i>Control Water</i> spell without expending a spell slot.",
+                        "**Conjure Elemental**: You can use the diamond to cast the <i>Conjure Elemental</i> spell without expending a spell slot. The elemental summoned must be a water elemental.",
+                        "**Water Connection**: While holding the Eternal Diamond of Water, you can use an action to touch a willing creature and grant it the ability to breathe underwater and a swimming speed equal to its walking speed for 24 hours. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                },
+                "The Eternal Diamond of Water is said to have been crafted in the heart of the Plane of Water, where it absorbed the raw power of the endless seas. Legends tell of heroes who wielded its power to calm raging storms, summon tidal waves to thwart their enemies, and explore the deepest ocean trenches. However, its potent magic comes at a price, binding its wielder to the primordial forces of the ocean. It has been in the possession of the Welden family for generations, passed down from one queen to the next as a symbol of their divine right to rule the seas."
+            ]
+        },
+        {
+            "name": "Sejlas Pocket Library",
+            "source": "HOMEBREW",
+            "page": 0,
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": false,
+            "entries": [
+                "A small stone which, when passed through the air, opens the entrance to a small reading room (2x2x2m) with bookshelves. When you leave it, you reappear where you entered. Is currently in the possession of [[Yri ad Fajen]]. She received the stone from her master as a gift for her travels. The room can only disappear when the stone is not in the room, additionally no living being or thing can be in the room when it disappears."
+            ]
+        }
+    ]
+}

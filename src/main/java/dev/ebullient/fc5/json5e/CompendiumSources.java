@@ -56,11 +56,14 @@ public class CompendiumSources {
                 .map(x -> sourceAndPage(x))
                 .collect(Collectors.toList()));
 
-        srcText.addAll(StreamSupport.stream(jsonElement.withArray("otherSources").spliterator(), false)
-                .filter(x -> !x.get("source").asText().equals(copySrc))
-                .peek(x -> this.bookSources.add(x.get("source").asText()))
-                .map(x -> sourceAndPage(x))
-                .collect(Collectors.toList()));
+        try {
+            srcText.addAll(StreamSupport.stream(jsonElement.withArray("otherSources").spliterator(), false)
+                    .filter(x -> !x.get("source").asText().equals(copySrc))
+                    .peek(x -> this.bookSources.add(x.get("source").asText()))
+                    .map(x -> sourceAndPage(x))
+                    .collect(Collectors.toList()));
+        } catch (Exception e) {
+        }
 
         return String.join(", ", srcText);
     }

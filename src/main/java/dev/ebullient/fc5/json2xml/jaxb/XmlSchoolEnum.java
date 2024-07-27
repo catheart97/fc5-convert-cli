@@ -7,9 +7,10 @@
 
 package dev.ebullient.fc5.json2xml.jaxb;
 
-import dev.ebullient.fc5.pojo.SchoolEnum;
 import jakarta.xml.bind.annotation.XmlEnum;
 import jakarta.xml.bind.annotation.XmlType;
+
+import dev.ebullient.fc5.pojo.SchoolEnum;
 
 /**
  * <p>
